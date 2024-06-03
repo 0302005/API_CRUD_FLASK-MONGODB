@@ -43,3 +43,11 @@ Antes de começar, certifique-se de ter as seguintes dependências instaladas:
 2. Use cURL ou uma ferramenta similar para realizar operações CRUD, conforme descrito no README anterior.
 
 OBS: Comandos cURL está no txt!
+
+# Integrantes:
+- Enzo Gonzalez Jeronymo
+- Éder Gomes da Silva Júnior
+- Gabriel Araújo do Nascimento
+- Henrique de Oliveira Souza
+- Bruno Dias Custodio
+- Kauã Martins
