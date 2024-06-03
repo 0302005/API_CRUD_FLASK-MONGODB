@@ -1,0 +1,23 @@
+CRUD (Create, Read, Update and Delete)
+
+POST
+criar um item
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/produtos" -Method POST -ContentType "application/json" -Body '{"_id": 4, "nome": "Mousepad de vidro SKYPAD", "descricao": "Mousepad feito de vidro para maior precisao", "preco": 300.00, "qtd_estoque": 20, "criado_em": "2024-06-02T16:00:00Z", "criado_por": {"_id": 1, "nome": "Joao Silva", "email": "joao.silva@example.com"}}'
+
+
+GET
+acessar todos os itens
+curl.exe -v http://127.0.0.1:5000/produtos
+acessar um item
+curl.exe -v http://127.0.0.1:5000/produtos/4
+
+PUT
+editar um item
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/produtos/4" -Method PUT -ContentType "application/json" -Body '{"preco": 999}'
+
+DELETE
+excluir um item
+Invoke-RestMethod -Uri "http://127.0.0.1:5000/produtos/4" -Method DELETE
+
+Obs.: Para rodar o curl pelo terminal do Ubuntu (WSL), adicione o .exe ao comando.
+ex.: curl.exe -v http://127.0.0.1:5000/produtos

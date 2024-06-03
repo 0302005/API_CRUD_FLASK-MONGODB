@@ -1,0 +1,67 @@
+{
+    "usuarios": [
+      {
+        "_id": 1,
+        "nome": "João Silva",
+        "email": "joao.silva@example.com",
+        "senha": "senha123",
+        "criado_em": "2024-06-02T10:00:00Z"
+      },
+      {
+        "_id": 2,
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@example.com",
+        "senha": "senha456",
+        "criado_em": "2024-06-02T11:00:00Z"
+      },
+      {
+        "_id": 3,
+        "nome": "Pedro Souza",
+        "email": "pedro.souza@example.com",
+        "senha": "senha789",
+        "criado_em": "2024-06-02T12:00:00Z"
+      }
+    ],
+    "produtos": [
+      {
+        "_id": 1,
+        "nome": "Teclado Mecânico",
+        "descricao": "Teclado mecânico com iluminação RGB",
+        "preco": 250.00,
+        "qtd_estoque": 15,
+        "criado_em": "2024-06-02T13:00:00Z",
+        "criado_por": {
+          "_id": 1,
+          "nome": "João Silva",
+          "email": "joao.silva@example.com"
+        }
+      },
+      {
+        "_id": 2,
+        "nome": "Mouse Gamer",
+        "descricao": "Mouse gamer com 16000 DPI",
+        "preco": 150.00,
+        "qtd_estoque": 30,
+        "criado_em": "2024-06-02T14:00:00Z",
+        "criado_por": {
+          "_id": 2,
+          "nome": "Maria Oliveira",
+          "email": "maria.oliveira@example.com"
+        }
+      },
+      {
+        "_id": 3,
+        "nome": "Monitor 4K",
+        "descricao": "Monitor 4K UHD de 27 polegadas",
+        "preco": 1200.00,
+        "qtd_estoque": 10,
+        "criado_em": "2024-06-02T15:00:00Z",
+        "criado_por": {
+          "_id": 3,
+          "nome": "Pedro Souza",
+          "email": "pedro.souza@example.com"
+        }
+      }
+    ]
+  }
+  

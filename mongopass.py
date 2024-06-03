@@ -1,0 +1,1 @@
+mongopass = "mongodb+srv://admin:admin@python-flask-mongodb.d1kklxq.mongodb.net/"
